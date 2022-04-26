@@ -21,7 +21,7 @@ fetch(url)
       // template
       const template = `
           <figure>
-            <figcaption>Student</figcaption>
+            <figcaption> ${student.name} </figcaption>
             <img src="${student.image.url}" alt="Placeholder" />
           </figure>
        `;
